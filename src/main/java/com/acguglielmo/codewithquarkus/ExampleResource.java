@@ -1,4 +1,4 @@
-package com.acguglielmo;
+package com.acguglielmo.codewithquarkus;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

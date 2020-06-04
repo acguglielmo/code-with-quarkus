@@ -1,4 +1,4 @@
-package com.acguglielmo;
+package com.acguglielmo.codewithquarkus;
 
 import org.junit.jupiter.api.Tag;
 
