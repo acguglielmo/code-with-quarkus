@@ -8,11 +8,19 @@ import javax.ws.rs.core.MediaType;
 @Path("/hello")
 public class ExampleResource {
 
+    private final ExampleService exampleService;
+
+    public ExampleResource() {
+
+        exampleService = new ExampleService();
+
+    }
+
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
 
-        return new ExampleService().hello();
+        return exampleService.hello();
 
     }
 }
